@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.16",
+  "version": "1.0.0",
+  "id": "7a947e3c-b7de-4091-9392-ec45a63a618b",
+  "packageName": "com.example.claudeteamsbot",
+  "developer": {
+    "name": "You",
+    "websiteUrl": "https://example.com",
+    "privacyUrl": "https://example.com/privacy",
+    "termsOfUseUrl": "https://example.com/terms"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "name": {
+    "short": "VICA",
+    "full": "VICA"
+  },
+  "description": {
+    "short": "@mention VICA in a channel for help.",
+    "full": "VICA reads recent channel messages and responds when @mentioned."
+  },
+  "accentColor": "#D97706",
+  "bots": [
+    {
+      "botId": "a58c84d2-4b16-4f0c-8fdd-ecddce20bd41",
+      "scopes": ["team", "groupChat"],
+      "supportsFiles": false,
+      "isNotificationOnly": false
+    }
+  ],
+  "permissions": ["identity", "messageTeamMembers"],
+  "validDomains": []
+}
